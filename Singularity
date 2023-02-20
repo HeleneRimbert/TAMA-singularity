@@ -34,7 +34,7 @@ Stage: build
     apt-get install -y software-properties-common
     apt-add-repository universe
     apt install -y dialog
-    apt install -y python2.7-minimal python-pip git dos2unix ncbi-blast+ bedtools samtools
+    apt install -y python2.7-minimal python-pip git dos2unix ncbi-blast+ bedtools samtools zlib* libbz2* liblzma-dev
     pip install biopython==1.76
     pip install pysam
 
